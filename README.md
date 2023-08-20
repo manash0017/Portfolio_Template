@@ -1,3 +1,3 @@
 # Portfolio_Template
 
-Portfolio Website for portfolio building website
+Portfolio Website template for portfolio building workshop
