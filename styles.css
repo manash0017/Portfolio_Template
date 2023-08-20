@@ -1,7 +1,6 @@
 :root {
     --primary: #8a63ff;
     --secondary: #A591FF;
-  
     --bg: #1F1D36;
     --heading: #E0DEF4;
     --text: #D5D4F0;
@@ -10,14 +9,24 @@
   body {
     font-family: system-ui, sans-serif;
     line-height: 1.5;
-    background-color: var(--bg); 
+    background-color: var(--bg);
     color: var(--text);
   }
   
   h1, h2, h3 {
     color: var(--heading);
   }
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
   
+  h2 {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+  }
   section {
     padding: 60px 20px;
   }
@@ -48,6 +57,7 @@
     border-radius: 5px;
     text-decoration: none;
     color: var(--text);
+    font-size: 250%;
   }
   
   nav a:hover {
@@ -65,7 +75,7 @@
   /* About */
   
   #about p {
-    max-width: 700px;  
+    max-width: 700px;
     margin: 20px 0;
     font-size: larger;
   }
@@ -91,30 +101,36 @@
  
 
   #education {
-    max-width: 70%;
-    margin: 0 auto;
+    max-width: 100%;
+    /* margin: 0 auto; */
     text-align: center;
+    align-items: center;
   }
   
   #education h2 {
     margin-bottom: 30px;
+    max-width: 100%;
   }
   
   #education h3 {
     margin-bottom: 10px;
+    max-width: 100%;
   }
   
   #education p {
     line-height: 1.6;
+    max-width: 100%;
   }
   
   #education ul {
     list-style: none;
-    padding-left: 0;
+    /* padding-left: 0; */
+    max-width: 100%;
   }
   
   #education li {
-    line-height: 1.6;
+    line-height: 1.8;
+    max-width: 100%;
   }
   
   @media (max-width: 600px) {
@@ -192,6 +208,10 @@
   
   #contact p {
     margin: 10px 0;
+  }
+
+  #contact a {
+    padding-left: 10px;
   }
   
   #contact i {
