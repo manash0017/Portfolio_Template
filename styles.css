@@ -209,10 +209,6 @@
   #contact p {
     margin: 10px 0;
   }
-
-  #contact a {
-    padding-left: 0.2rem;
-  }
   
   #contact i {
     color: var(--secondary);
