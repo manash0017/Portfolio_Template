@@ -27,7 +27,13 @@
     border-radius: 10px;
     border: 2px solid var(--primary);
   }
-  
+
+  .logo_csi {
+    max-width: 200px; /* Set the maximum width */
+    border-radius: 100px; /* Add rounded corners */
+    outline: none; /* Remove the outline */
+  }
+
   /* Header */
   
   header {
