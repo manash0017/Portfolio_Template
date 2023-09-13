@@ -1,9 +1,16 @@
 :root {
   --primary: #8a63ff; /* This is the primary color. */
   --secondary: #A591FF; /* This is the secondary color. */
-  --bg: #1F1D36; /* This is the background color. */
-  --heading: #E0DEF4; /* This is the color for headings. */
+  --bg: #0a0a16; /* This is the background color. */
+  --heading: #9c99c0; /* This is the color for headings. */
   --text: #D5D4F0; /* This is the color for text. */
+}
+header{
+  background: #D5D4F0;
+}
+
+.description{
+  text-align: right;
 }
 
 body {
@@ -113,7 +120,7 @@ section {
 
 .skill-icons {
   /* The skill icons will have a font size of clamp(2rem, 5vw, 5rem), a margin of 30px 0, and a color of var(--primary). */
-  font-size: clamp(2rem, 5vw, 5rem);
+  font-size: clamp(5rem, 5vw, 5rem);
   margin: 30px 0;
   color: var(--primary);
 }
