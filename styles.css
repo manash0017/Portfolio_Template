@@ -97,7 +97,7 @@ section {
 
 #about p {
   /* The about page paragraph will have a max-width of 800px, a margin of 20px 0, a font size of 1.7rem, and will be text-aligned to the center. */
-  max-width: 800px;
+  max-width: 1800px;
   margin: 20px 0;
   font-size: 1.7rem;
   text-align: center;
