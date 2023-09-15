@@ -5,13 +5,6 @@
   --heading: #9c99c0; /* This is the color for headings. */
   --text: #D5D4F0; /* This is the color for text. */
 }
-header{
-  background: #D5D4F0;
-}
-
-.description{
-  text-align: right;
-}
 
 body {
   font-family: system-ui, sans-serif; /* This sets the font family. */
@@ -51,23 +44,35 @@ img {
   border: 2px solid var(--primary); /* This adds a border around images. */
 }
 
-.logo_csi {
+.pp {
   max-width: 200px; /* This sets the maximum width for the CSI logo. */
   border-radius: 100px; /* This adds rounded corners to the CSI logo. */
   outline: none; /* This removes the outline from the CSI logo. */
+  transition: 0.7s;
+}
+.pp:hover{
+  cursor: pointer;
+  border-radius: 150px;
+  max-width: 250px;
 }
 /* Header */
 
 header {
   /* The header will have a background color of var(--bg). */
-  background-color: var(--bg);
-
-  /* The text in the header will be centered. */
-  text-align: center;
-
-  /* There will be padding of 20px at the top and bottom of the header. */
-  padding: 20px 0;
+  background: #1c252e;
+  border:0;
+  margin-top: 0; 
 }
+.description{
+  display: inline-block;
+  margin-left: 430px;
+}
+.name{
+  text-align: left;
+  display: inline-block;
+  cursor: pointer;
+}
+
 
 nav a {
   /* The nav links will have a margin of 10px, padding of 8px 15px, a border radius of 5px, no text decoration, and a color of var(--text). */
@@ -77,6 +82,7 @@ nav a {
   text-decoration: none;
   color: var(--text);
   font-size: 250%;
+  display: inline-block;
 }
 
 nav a:hover {
