@@ -63,14 +63,21 @@ header {
   border:0;
   margin-top: 0; 
 }
+
 .description{
   display: inline-block;
-  margin-left: 430px;
+  margin-left: 580px;
 }
 .name{
   text-align: left;
   display: inline-block;
   cursor: pointer;
+  margin-top:0;
+  color: #a0b4c8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.name:hover{
+  color:rgb(160,180,230)
 }
 
 
@@ -81,7 +88,7 @@ nav a {
   border-radius: 5px;
   text-decoration: none;
   color: var(--text);
-  font-size: 250%;
+  font-size: 170%;
   display: inline-block;
 }
 
@@ -103,9 +110,9 @@ section {
 
 #about p {
   /* The about page paragraph will have a max-width of 800px, a margin of 20px 0, a font size of 1.7rem, and will be text-aligned to the center. */
-  max-width: 1800px;
+  max-width: 800px;
   margin: 20px 0;
-  font-size: 1.7rem;
+  font-size: 1.35rem;
   text-align: center;
 }
 
@@ -258,7 +265,7 @@ section {
 #contact p {
   /* The paragraphs in the contact section will have a margin of 10px 0 and a font size of 1.4rem. */
   margin: 10px 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 #contact a {
